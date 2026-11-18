@@ -1,24 +1,24 @@
 class Borer < Formula
-  desc "Reverse-engineering engine for AI agents: MCP server and CLI"
+  desc "Blazing fast, Rust-based reverse engineering tool built for humans and AI"
   homepage "https://github.com/imjustprism/borer"
-  version "0.2.12"
+  version "0.3.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/imjustprism/borer/releases/download/v0.2.12/borer-v0.2.12-aarch64-apple-darwin.tar.gz"
-      sha256 "16a6522d28a0c818cc26b38bb71e5649093a60583f1e81485256ce22b2fb858f"
+      url "https://github.com/imjustprism/borer/releases/download/v0.3.0/borer-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0bf4ac8989a17a94c721fd37c86b11421a830fd31000ff8d7fbb242f49fcbaf7"
     end
     on_intel do
-      url "https://github.com/imjustprism/borer/releases/download/v0.2.12/borer-v0.2.12-x86_64-apple-darwin.tar.gz"
-      sha256 "6b1b9d9af8f29e8d871dc1ded962db362ae86adc5a2188b3ea92b191a2a79785"
+      url "https://github.com/imjustprism/borer/releases/download/v0.3.0/borer-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "28cf3b505570f347e4fb9e1ea4954340c4b236460ca1e782226ea0808d473fd5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/imjustprism/borer/releases/download/v0.2.12/borer-v0.2.12-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c6357f72f43dea0c2a9e8817a088af6ca7de85080d9744cc345baf78a723ef11"
+      url "https://github.com/imjustprism/borer/releases/download/v0.3.0/borer-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e1e6cfccc20784cfbdf169d9cf98eb4c0fa6156583cda38eaa77a069f1d89ade"
     end
   end
 
